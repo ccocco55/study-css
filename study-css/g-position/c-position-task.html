@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position-실습</title>
+    <style>
+        #image {
+            margin: 0 auto;
+            width: 220px;
+            height: 315px;
+            background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+            background-size: 100% 100%;
+            position: relative;
+            /* 이미지 크기가 요소의 크기보다 작을 때 */
+            /* background-repeat: no-repeat;
+            background-position: center; */
+            
+        }
+        #rebon {
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            background-image: url("./image/free-icon-bow-326343.png");
+            background-size: 100% 100%;
+            position: absolute;
+            right: 60px;
+            
+        }
+
+        #dress {
+            margin: 0 auto;
+            width: 350px;
+            height: 350px;
+            background-image: url("./image/free-icon-dress-326330.png");
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: -200px;
+            right: -50px;
+        }
+
+        #necklace {
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
+            background-image: url("./image/11057111_necklace_jewel_jewelry_golden_fashion_icon.png");
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 90px;
+            right: 90px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="image">
+        <div id="rebon"></div>
+        <div id="dress"></div>
+        <div id="necklace"></div>
+    </div>
+    
+    
+    
+</body>
+</html>
